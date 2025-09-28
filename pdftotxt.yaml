@@ -7,7 +7,7 @@ Resources:
     Properties:
       Handler: lambda_function.lambda_handler
       Runtime: python3.13
-      CodeUri: .
+      CodeUri: s3://*
       Description: ''
       MemorySize: 512
       Timeout: 900

@@ -7,7 +7,7 @@ Resources:
     Properties:
       Handler: lambda_function.lambda_handler
       Runtime: python3.13
-      CodeUri: s3://documentstore-556174328764/Pdf/
+      CodeUri: s3://lambdaoutputbucket-556174328764/pdftotxt/abc123.zip
       Description: ''
       MemorySize: 512
       Timeout: 900

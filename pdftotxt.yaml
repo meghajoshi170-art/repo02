@@ -7,7 +7,7 @@ Resources:
     Properties:
       Handler: lambda_function.lambda_handler
       Runtime: python3.13
-      CodeUri: s3://bucket1-556174328764/Astronomy.txt
+      CodeUri: s3://documentstore-556174328764/Astronomy.pdf
       Description: ''
       MemorySize: 512
       Timeout: 900

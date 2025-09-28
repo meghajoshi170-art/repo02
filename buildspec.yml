@@ -9,6 +9,7 @@ phases:
 
 artifacts:
   discard-paths: yes
+  type: zip
   files:
     - pdftotxt.yaml
     - lambdaoutput.yaml

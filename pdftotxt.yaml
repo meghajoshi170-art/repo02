@@ -7,7 +7,7 @@ Resources:
     Properties:
       Handler: lambda_function.lambda_handler
       Runtime: python3.13
-      CodeUri: s3://lambdaoutputbucket-556174328764/pdftotxt/
+      CodeUri: s3://lambdaoutputbucket-556174328764/pdftotxt/PDFtoTXT.zip
       Description: ''
       MemorySize: 512
       Timeout: 900
